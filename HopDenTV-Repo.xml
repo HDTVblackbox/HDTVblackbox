@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon
+  id="plugin.video.hayhaytv"
+  version="1.0.27"
+  name="Kênh Phim Tổng Hợp"
+  provider-name="DaveLN">
+  <requires>
+		<import addon="xbmc.python" version="2.1.0" optional="true" />
+		<import addon="script.module.simplejson" />
+		<import addon="script.module.t0mm0.common" version="1.1.0"/>
+		<import addon="repository.movieshd"/>
+		<import addon="repository.metalkettle"/>
+		</requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Movies</summary>
+    <description>Internet Movies</description>
+	<disclaimer lang="en">
+[COLOR lime]The streaming media are found via website(s). 
+[COLOR red]These streams do not represent my views or opinions in any way.[/COLOR]</disclaimer>	
+    <platform>all</platform>
+		<license>http://www.gnu.org/licenses/</license>
+		<forum></forum>
+		<website></website>  
+		<email></email>
+		<source>https://github.com/daveln/repository.daveln</source>         
+  </extension>
+</addon>
+
+<addon id="plugin.video.mylivetv"
+       name="*Live TV"
+       version="1.1.0"
+       provider-name="DaveLN">
+  <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+		<import addon="script.module.simplejson" />
+		<import addon="script.module.t0mm0.common" version="1.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>TV</summary>
+    <description>Internet TV</description>
+	<disclaimer lang="en">
+[COLOR lime]The streaming media are found via website(s).
+[COLOR red]These streams do not represent my views or opinions in any way.[/COLOR]</disclaimer>
+    <platform>all</platform>
+		<license>http://www.gnu.org/licenses/</license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<source>https://github.com/daveln/repository.daveln</source>  
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.hdonlinevn"
+  version="1.0.11"
+  name="HDOnline"
+  provider-name="thongld">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>hdonline.vn</summary>
+    <description>Xem Phim HD Lồng Tiếng và Thuyết Minh Tiếng Việt tại HDonline</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.nba"
+       name="NBA League Pass"
+       version="0.7"
+       provider-name="maxgalbu, ptsampoukas and robla">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.common.plugin.cache" version="0.9.1"/>
+    <import addon="script.module.pytz" version="2014.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="leaguepass.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Watch NBA League Pass games.</summary>
+    <description>Features: Archive and condensed games for the current NBA season, highlights and top plays, previous seasons starting from 2012/2013. Fanart and thumbnails. Requires a subscription to the International League Pass. Homepage: https://bitbucket.org/maxgalbu/plugin.video.nba/overview</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.hdonline"
+       name="HDOnline"
+       version="1.0.4.3"
+       provider-name="DaveLN">
+  <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+		<import addon="script.module.simplejson" />
+		<import addon="script.module.t0mm0.common" version="1.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Movies</summary>
+    <description>Internet Movies</description>
+	<disclaimer lang="en">
+[COLOR lime]The streaming media are found via website(s). 
+[COLOR red]These streams do not represent my views or opinions in any way.[/COLOR]</disclaimer>	
+    <platform>all</platform>
+		<license>http://www.gnu.org/licenses/</license>
+		<forum></forum>
+		<website></website>  
+		<email></email>
+		<source>https://github.com/daveln/repository.daveln</source>         
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.xbmctorrent"
+  version="0.6.4"
+  name="HD Movies, TV Series, Anime - torrent Stream"
+  provider-name="HopDenTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>xbmctorrent - Movies, TV Series, Anime</summary>
+    <description>HD Movies, TV Series, Anime - torrent Streaming</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.htvonline"
+  version="1.0.5"
+  name="HTV Online"
+  provider-name="thongld">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>HTV Online</summary>
+    <description>Watch free HTVOnline.com.vn (Vietnamese) Channels</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.phim47"
+       name="Phim47"
+       version="1.0.18.5"
+       provider-name="DaveLN">
+  <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+		<import addon="script.module.simplejson" />
+		<import addon="script.module.t0mm0.common" version="1.1.0"/>
+		<import addon="repository.daveln"/>
+		<import addon="repository.traitravinh"/>
+		<import addon="repository.xunitytalk"/>
+		<import addon="plugin.video.nettivi"/>
+		<import addon="plugin.video.netmedia"/>
+		<import addon="plugin.video.cartoonhdtwo"/>		
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Movies</summary>
+    <description>Internet Movies</description>
+	<disclaimer lang="en">
+[COLOR lime]The streaming media are found via website(s). 
+[COLOR red]These streams do not represent my views or opinions in any way.[/COLOR]</disclaimer>	
+    <platform>all</platform>
+		<license>http://www.gnu.org/licenses/</license>
+		<forum></forum>
+		<website></website>  
+		<email></email>
+		<source>https://github.com/daveln/repository.daveln</source>         
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.vtvplus"
+  version="1.0.7.1"
+  name="VTV Plus"
+  provider-name="thongld">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmcswift2" version="1.3.1" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>HTV Online</summary>
+    <description>Watch vtvplus.vn (Vietnamese) Channels</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.NhacsoOfficial"
+  version="1.0.16"
+  name="*NetMusic"
+  provider-name="DaveLN">
+  <requires>
+		<import addon="xbmc.python" version="2.1.0" optional="true" />
+		<import addon="script.module.simplejson" />
+		<import addon="script.module.t0mm0.common" version="1.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Music from many sources</summary>
+    <description>The streaming media are pulled from online providers</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.DailyNews"
+  name="Daily VN News/ Tin Tức Tổng Hợp"
+  version="1.0.5.1"
+  provider-name="HopDenTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch SBTN, RFA, VOA, NguoivietTV, BBC, Pho Bolsa</summary>
+    <description>Watch SBTN, RFA, VOA, NguoivietTV, BBC, Pho Bolsa News</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.TruyenhinhShow"
+  version="1.0.6"
+  name="Chương Trình TV Shows VN"
+  provider-name="HopDenTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Truyen Hinh TV Shows</summary>
+    <description>Truyen Hinh TV Shows Playlist</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.PhoBolsaTV"
+  version="1.0.1"
+  name="Phố Bolsa TV"
+  provider-name="HopDenTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>PhoBolsaTV</summary>
+    <description>Phố Bolsa TV - Không Có Chuyện Gì Không Thể Hỏi</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.live.streams"
+  version="1.3.9"
+  name="Chương Trình Đặc Biệt"
+  provider-name="HopDenTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>HopDenTV.com</summary>
+    <description>Chương Trình Đặc Biệt: Collection from many sources... </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.nghedoctruyenonline"
+  version="1.0.10"
+  name="TV24vn"
+  provider-name="HopDenTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="hdtvblackbox.com/HopDenTV_REPO/Zips/repository.HopDenTV/repository.HopDenTV-1.0.3.zip" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Nghe Doc Truyen Online Audio Book</summary>
+    <description>Watch Nghe Doc Truyen Online Audio Book</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.AsianCookingmadeEasy"
+  version="1.0.10"
+  name="Asian Cooking Made Easy"
+  provider-name="HopDenTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Asian Cooking Made Easy</summary>
+    <description>Watch Asian Cooking Made Easy Playlists</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.chatonaudiobooks"
+  version="1.0.14"
+  name="AudioBook, Đọc Truyện Tổng Hợp"
+  provider-name="HopDenTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary> Audio Book</summary>
+    <description>Vietnamese Audio Book</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.HaiKich"
+  version="1.0.11"
+  name="Hài Kịch"
+  provider-name="HopDenTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>POPSVIETNAM Playlists</summary>
+    <description>Watch POPSVIETNAM Playlists</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.tintucradio"
+  version="1.0.10"
+  name="Videobooks For You"
+  provider-name="HopDenTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary> Audio Book</summary>
+    <description>Vietnamese Audio Book</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.POPSVIETNAM"
+  version="1.0.11"
+  name="POPS Việt Nam"
+  provider-name="HopDenTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py"> 
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary> POPSVIETNAM Playlists</summary>
+    <description>Watch POPSVIETNAM Playlists Channel</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.VietFoodie"
+  version="1.0.11"
+  name="Chương Trình Ẩm Thực Đó Đây..."
+  provider-name="HopDenTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py"> 
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Nau An Video Cooking Show</summary>
+    <description>Nau An Video Cooking Show Channel</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.XuanHongCookingShow"
+  version="1.0.1"
+  name="Lửa Hồng Cooking Show"
+  provider-name="HopDenTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py"> 
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Lửa Hồng Cooking Show </summary>
+    <description>Lửa Hồng - Xuan Hong Cooking Show Channel</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.nhacvietkaraoke"
+  version="1.0.12"
+  name="Chia Sẻ Nhạc"
+  provider-name="HopDenTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Nhac Viet Karaoke Playlists</summary>
+    <description>Watch Nhac Viet Karaoke Playlists</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.MichellePhan"
+  version="1.0.11"
+  name="Michelle Phan's Makeup"
+  provider-name="HopDenTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary> Michelle Phan's Makeup Playlists</summary>
+    <description>Watch Michelle Phan's Makeup Playlists</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.HelenRecipes"
+  version="1.1.7"
+  name="Xóm Giải Trí"
+  provider-name="HopDenTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>XomGiaiTri.com</summary>
+    <description>Xem phim giải trí tại XomGiaiTri.com</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.frmheadtotoe"
+  version="1.1.4"
+  name="Phim 3S"
+  provider-name="DaveLN">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>phim3s.net</summary>
+    <description>Watch free movies at phim3s.net</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.UyenThyCooking2013"
+  version="1.0.10"
+  name="Bếp Nhà Ta Nấu"
+  provider-name="HopDenTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py"> 
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary> Uyên Thy Cooking show</summary>
+    <description>Watch Uyên Thy Cooking Playlists</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.fukudahoushin2"
+  version="1.0.12"
+  name="Ca Nhạc Tổng Hợp"
+  provider-name="HopDenTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Ca Nhạc Tổng Hợp[</summary>
+    <description>Watch free Ca Nhạc Tổng Hợp </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.megafun"
+  version="1.0.16"
+  name="MegaFun.vn"
+  provider-name="thongld">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>MegaFun.vn</summary>
+    <description>Watch free MegaFun.vn (Vietnamese) Videos</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.phim.xixam.com"
+  version="1.0.8"
+  name="Xì Xầm"
+  provider-name="thongld">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver" version="0.0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>phim.xixam.com</summary>
+    <description>Watch free phim.xixam.com (Vietnamese) Videos</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.phim60s"
+  version="2.0.1"
+  name="Phim60s.info"
+  provider-name="thongld">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver" version="0.0.1"/>
+		<import addon="repository.traitravinh"/>
+		<import addon="plugin.video.vkool"/>
+		<import addon="plugin.video.moviHD"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>phim60s</summary>
+    <description>Watch free phim60s.info (Vietnamese) Videos</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.phimclipvn"
+  version="1.0.9"
+  name="Phim ClipVN"
+  provider-name="thongld">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver" version="0.0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>phim60s</summary>
+    <description>Watch free phim60s.info (Vietnamese) Videos</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.HopDenTV"
+  version="1.2.10"
+  name="Chương Trình Tổng Hợp"
+  provider-name="HopDenTV">
+  <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>HopDenTV.com</summary>
+    <description>Watch hundreds of Vietnamese and English channels</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.youtube.playlists" name="VIP Playlists" version="1.0.9" provider-name="HopDenTV">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Watch VIP YouTube Playlists</summary>
+        <language></language>
+        <description lang="en">Watch VIP YouTube Playlists</description>
+    </extension>
+</addon>
+
+<addon
+  id="plugin.video.zingtv"
+  version="1.0.12"
+  name="Zing TV"
+  provider-name="thongld">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver" version="0.0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>tv.zing.vn</summary>
+    <description>Watch Zing TV (Vietnamese) Videos</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.nettivi"
+       name="*NetTivi"
+       version="1.0.16"
+       provider-name="DaveLN">
+  <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+		<import addon="script.module.simplejson" />
+		<import addon="script.module.t0mm0.common" version="1.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>TV</summary>
+    <description>Internet TV</description>
+	<disclaimer lang="en">
+[COLOR lime]The streaming media are found via website(s).
+[COLOR red]These streams do not represent my views or opinions in any way.[/COLOR]</disclaimer>
+    <platform>all</platform>
+		<license>http://www.gnu.org/licenses/</license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<source>https://github.com/daveln/repository.daveln</source>  
+  </extension>
+</addon>
+
+<addon id="plugin.video.netporn"
+       name="*Net[COLOR red]Porn[COLOR yellow]18+[/COLOR]"
+       version="1.0.3"
+       provider-name="DaveLN">
+  <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+		<import addon="script.module.simplejson" />
+		<import addon="script.module.t0mm0.common" version="1.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR red]Adult TV [COLOR yellow]18+[/COLOR]</summary>
+    <description>Internet [COLOR red]Adult TV [COLOR yellow]18+ [COLOR white]from various sources[/COLOR]
+
+[COLOR red][B]WARNING:[/B] 
+[COLOR yellow]You must be[COLOR red] at least 18 years old[COLOR yellow] or[COLOR red] over the legal age where you live or use this addon[COLOR yellow] to watch adult contents.[/COLOR]</description>
+	<disclaimer lang="en">
+[COLOR lime]The streaming media are found via website(s). 
+[COLOR red]These streams do not represent my views or opinions in any way.[/COLOR]</disclaimer>	    
+    <platform>all</platform>
+		<license>http://www.gnu.org/licenses/</license>
+		<forum></forum>
+		<website></website>  
+		<email></email>
+		<source>https://github.com/daveln/repository.daveln</source>       
+  </extension>
+</addon>
+
+<addon id="plugin.video.netmedia"
+       name="*NetMedia"
+       version="1.0.13"
+       provider-name="DaveLN">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" optional="true" />
+		<import addon="script.module.simplejson" />
+		<import addon="script.module.t0mm0.common" version="1.1.0"/>				
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Videos and audio from various websites</summary>
+    <description>Watch videos and listen to audio from many sources. </description>	
+	<disclaimer lang="en">
+[COLOR lime]The streaming media are pulled from online provider(s). 
+[COLOR red]These streams do not represent my views or opinions in any way.[/COLOR]</disclaimer>		
+    <platform>all</platform>
+		<license>http://www.gnu.org/licenses/</license>
+		<forum></forum>
+		<website>http://www.youtube.com/</website>
+		<website>http://www.dailymotion.com/</website>
+		<website>http://www.dnrtv.org.vn/tvod/chuyen-de/suc-khoe</website> 
+		<website>http://nguoiviettv.com/?cat=23</website>     
+		<email></email>
+		<mainsource>https://github.com/daveln/repository.daveln</mainsource>    
+		<source>https://github.com/bromix/plugin.video.youtube</source>
+		<source>http://ftp.vim.org/pub/pub/mediaplayer/xbmc/addons/frodo/plugin.video.youtube/</source> 
+		<source>https://github.com/AddonScriptorDE/plugin.video.dailymotion_com</source>     
+  </extension>
+</addon>
+
+<addon id="plugin.video.cartoonhdtwo" name="Cartoon HD Extra" version="0.0.4" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Cartoon HD Extra</summary>
+    <description lang="en">Watch All Your Favourite Cartoons</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.HopDenTV" name="HopDenTV REPO" version="1.0.2" provider-name="HopDenTV">
+	<extension point="xbmc.addon.repository" name="HopDenTV Addon Repository">
+		<info compressed="false">http://hdtvblackbox.com/HopDenTV_REPO/HopDenTV-Repo.xml</info>
+		<checksum>http://hdtvblackbox.com/HopDenTV_REPO/HopDenTV-Repo.md5</checksum>
+		<datadir zip="false">http://hdtvblackbox.com/HopDenTV_REPO</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install HopDenTV REPO</summary>
+		<description>Download and install addons from HopDenTV REPO: Watch free movies and TV Shows from many sources</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.movieshd" name="MoviesHD Addon Repository" version="1.0.1" provider-name="MoviesHD MetalKettle">
+	<extension point="xbmc.addon.repository" name="MoviesHD Addon Repository">
+		<info compressed="false">http://raw.github.com/metalkettle/MoviesHD/master/addons.xml</info>
+		<checksum>http://raw.github.com/metalkettle/MoviesHD/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/metalkettle/MoviesHD/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.metalkettle" name="MetalKettles Addon Repository" version="1.4.3" provider-name="MetalKettle">
+	<extension point="xbmc.addon.repository" name="MetalKettles Addon Repository">
+		<info compressed="false">http://raw.github.com/metalkettle/MetalKettles-Addon-Repository/master/addons.xml</info>
+		<checksum>http://raw.github.com/metalkettle/MetalKettles-Addon-Repository/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/metalkettle/MetalKettles-Addon-Repository/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install my Addons</summary>
+		<description>Download and install addons from MetalKettle</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.daveln" name="DaveLN's Repository" version="1.0.0" provider-name="DaveLN">
+	<extension point="xbmc.addon.repository" name="DaveLN Addon Repository">
+		<info compressed="false">https://github.com/daveln/repository.daveln/raw/master/addons.xml</info>
+		<checksum>https://github.com/daveln/repository.daveln/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/daveln/repository.daveln/raw/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>XBMC add-ons</summary>
+		<description>Go through the add-ons and see what you like</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.traitravinh" name="TraiTraVinh's Testing Repo" version="1.0" provider-name="traitravinh">
+	<extension point="xbmc.addon.repository" name="TraiTraVinh's Testing Repo">
+		<info compressed="false">https://raw.github.com/traitravinh/traitravinh.repository.xbmc/master/addons.xml</info>
+		<checksum>https://raw.github.com/traitravinh/traitravinh.repository.xbmc/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/traitravinh/traitravinh.repository.xbmc/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Testing repo</summary>
+		<description>Testing repo</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.xunitytalk" name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk Repository" version="1.0.3" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
+	<extension point="xbmc.addon.repository" name="Mikey1234 Addon Repository">
+		<info compressed="false">http://xty.me/xunitytalk/addons/addons.xml</info>
+		<checksum>http://xty.me/xunitytalk/addons/addons.xml.md5</checksum>
+		<datadir zip="true">http://xty.me/xunitytalk/addons</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The Best Third Party Addons for XBMC, .[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk</summary>
+		<description>The Best Third Party Addons for XBMC, .[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
